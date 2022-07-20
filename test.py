@@ -7,4 +7,5 @@ from matplotlib import pyplot as plt
 import tensorcircuit as tc
 c = tc.Circuit(2)
 c.H(0)
-print(c.sample())
+c.H(1)
+print(c.state())
